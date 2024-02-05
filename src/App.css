@@ -1,0 +1,37 @@
+body {
+  background: #e6e4ff; 
+  }
+
+.app-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  gap: 50px;
+  min-height: 100vh;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.profile-photo {
+  width: 150px; 
+  border-radius: 50%; 
+  border: 3px solid #fff; 
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+.profile-text {
+  font-size: 1.2rem;
+  color: #333; 
+}
+
+.hobbies-list ul {
+  list-style-type: none; 
+}
+
+.hobbies-list li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+
